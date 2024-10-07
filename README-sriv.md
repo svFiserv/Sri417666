@@ -1,7 +1,6 @@
 
 <!--
-**Sri417666/Sri417666** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
-![alt text](readmetest1.png)
+**Sri417666/Sri417666** is a ✨ _special_ ✨ repository because its `README-sriv.md` (this file) appears on your GitHub profile.-->
 
 ![alt text](image.png)
 
@@ -27,6 +26,8 @@ Here are some ideas to get you started:
 | 3 | Travel |
 | 4 | Bird watch |
 
+<!-- See also <a href="more-hobby">More hobby</a> -->
+
 ---
 
 ## Quotes
@@ -51,8 +52,14 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ### Section Links
 
-> [!Note]
-> Must explore more.
+> [Links and section links](#links)
+>
+<!-- #### Using Anchors
+
+> My hobbies also include
+<a name="more-hobby"> watching cookery shows</a>. -->
+
+<!-- Commented because it says Inline-HTML and does not allos.> -->
 
 # Text Styles
 
@@ -114,4 +121,83 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 >
 > It can have multiple paragraphs.
 
+---
+
 ## Note containing a code block
+
+See how a note with a codeblock renders:
+
+> [!NOTE]
+> A note can contain code blocks. For example:
+>
+> ```js
+> const s = "I'm in a code block";
+> ```
+>
+> and so on.
+
+---
+
+## Lists
+
+### Unordered lists
+
+You can make unordered lists with a preceding -, *, or + characters.
+
+- Day 1
+- Day 2
+- so on.
+
+More sample:
+
++ Monday
+
++ Tuesday
+
+One more:
+
+* September
+
+* October
+
+[!NOTE]
+
+- The bullets look same for any of these 3 characters.
+- Eventhough a warning message prompts use of - symbol, the other 2 characters * and + create a UL.
+- While other special characters do not.
+
+---
+
+### Ordered lists
+
+Precede items with number to get OL.
+
+1. Commerce Hub
+2. Tap to Pay
+3. more
+
+One more scenario:
+
+7. Other products
+10. In finance domain
+18. more
+
+[!NOTE]
+You can number the list with some numbers. But numbering within a list follows sequence.
+
+### Nested List
+
+1. Example 1 of nested list 
+    - Level 2
+        - Level 3
+
+#### Dedenting NL
+
+1. Example 1 of nested list 
+- Level 2
+- Level 3
+
+[!NOTE]
+
+Used Shift + Tab key to dedent.
+
