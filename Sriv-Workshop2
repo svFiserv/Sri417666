@@ -1,0 +1,125 @@
+# Quick Reference Guide
+
+## Task list
+
+To create task list, preface list items with a - space and []. To mark a task as complete, use [x].
+
+**Example:**
+
+- [x] 11234
+- [ ] more to finish
+- [ ] add delight
+
+<!-- rendering is different from reference -->
+
+@svFiserv please review the mention
+
+🤵‍♀️ Committed  *Readme-Sriv*.
+
+---
+
+## Footnote
+
+Use [^footnote number]
+
+Here is a sample footnote[^1].
+
+Footnotes can have multiple lines too[^2].
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2]. To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
+<!-- footnotes dont work as expected. -->
+
+---
+
+## Alerts
+
+Use alerts only when crucial.  Alerts cannot be consecutive.  Alerts cannot be nested with other elements.
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+<!-- Do we need more extensions to show alerts with respective icons? -->
+
+---
+
+## Ignore markdown formatting
+
+You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
+Without \ character: 
+
+Let's rename *our-new-project* to *our-old-project*.
+
+[!NOTE] Note the difference. Without the escape character, backslash \, text shows in italics.
+
+---
+
+10/08/2024
+
+## Disable Markdown rendering
+
+Disabling rendering helps to view the source content with links, etc., If you render, you can only view the rendered content and not view source.
+
+---
+
+## Revisit missed out items
+
+### More color models
+
+The color of deep see is '#0000ff' .
+
+what color is this'#0969DA'?
+
+<!-- In the reference, Color code shows a small circle with the given color. Here its missing. -->
+
+---
+
+## Automatic Link
+
+GitHub automatically creates links when valid URLs are written in a comment.
+
+For example:
+https://www.webfx.com/tools/emoji-cheat-sheet/
+
+To see how it works, see [Alerts](#alerts).
+
+---
+
+### Relative links
+
+<a name="rela-link"></a>
+
+[!NOTE]Note the message no-inline-html.
+
+Relative links make locating the linked enitity easier. Link is set from whichever branch you are in.\ or ..\ is added to set relative link.
+
+[More examples for links] ../README-sriv.md
+
+---
+
+### Custom Anchors
+
+<!-- This was not allowed saying inline HTML.Trying again.-->
+
+Custom anchors take you to any location in the document against the anchor you have set. [For example](#rela-link) see this.
+
+---
+
