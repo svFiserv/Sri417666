@@ -64,7 +64,7 @@ You can tell GitHub to ignore (or escape) Markdown formatting by using \ before 
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
-Without \ character: 
+Without \ character:
 
 Let's rename *our-new-project* to *our-old-project*.
 
@@ -97,7 +97,7 @@ what color is this'#0969DA'?
 GitHub automatically creates links when valid URLs are written in a comment.
 
 For example:
-https://www.webfx.com/tools/emoji-cheat-sheet/
+<https://www.webfx.com/tools/emoji-cheat-sheet/>
 
 To see how it works, see [Alerts](#alerts).
 
@@ -105,7 +105,7 @@ To see how it works, see [Alerts](#alerts).
 
 ### Relative links
 
-<a name="rela-link"></a>
+<a id="rela-link"></a>
 
 [!NOTE]Note the message no-inline-html.
 
@@ -123,3 +123,11 @@ Custom anchors take you to any location in the document against the anchor you h
 
 ---
 
+## Images
+
+Directly pasting image:
+![octocat small](/assets/images/image3.png)
+
+<!-- Image does not display in preview -->
+
+---
